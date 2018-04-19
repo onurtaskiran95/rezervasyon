@@ -49,7 +49,7 @@
         "kouosl/site": "dev-master",
         "kouosl/user": "dev-master",
         "kouosl/sample": "dev-master",
-        "kouosl/menu": "dev-master"
+        "kouosl/slider": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
