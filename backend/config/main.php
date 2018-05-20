@@ -13,6 +13,9 @@ return [
     'bootstrap' => ['log'],
     'defaultRoute' => 'site/site/index',
     'modules' => [
+      'rezervasyon' => [
+        'class' => 'kouosl\rezervasyon\Module'
+      ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ],
@@ -22,8 +25,8 @@ return [
         'sample' => [
             'class' => 'kouosl\sample\Module'   // here is our v1 modules
         ],
-		'slider' => [
-			'class' => 'kouosl\slider\Module',
+		'timetable' => [
+			'class' => 'kouosl\timetable\Module',
 		],
 
     ],

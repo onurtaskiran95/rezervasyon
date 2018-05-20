@@ -34,10 +34,14 @@
             "type": "vcs",
             "url": "https://github.com/kouosl/sample.git"
         },
-		{
-			"type": "vcs",
-			"url": "https://github.com/ozkanmustafa/slider.git"
-		}
+    		{
+    			"type": "vcs",
+    			"url": "https://github.com/onurtaskiran95/rezervasyon.git"
+    		},
+        {
+        "type": "vcs",
+        "url": "https://github.com/kouosl/portal-gii.git"
+        }
     ],
     "require": {
         "php": ">=5.4.0",
@@ -49,7 +53,8 @@
         "kouosl/site": "dev-master",
         "kouosl/user": "dev-master",
         "kouosl/sample": "dev-master",
-        "kouosl/slider": "dev-master"
+        "kouosl/timetable": "dev-master",
+        "kouosl/rezervasyon": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -57,7 +62,9 @@
         "yiisoft/yii2-faker": "~2.0.0",
 
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "codeception/verify": "~0.3.1",
+
+        "kouosl/portal-gii": "dev-master"
     },
     "config": {
         "process-timeout": 1800,

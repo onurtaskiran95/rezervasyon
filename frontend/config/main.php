@@ -13,6 +13,9 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'defaultRoute' => 'site/site/index',
     'modules' => [
+      'rezervasyon' => [
+        'class' => 'kouosl\rezervasyon\Module'
+      ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ],
@@ -22,8 +25,8 @@ return [
         'sample' => [
             'class' => 'kouosl\sample\Module'   // here is our v1 modules
         ],
-		'menu' => [
-			'class' => 'kouosl\menu\Module',
+		'timetable' => [
+			'class' => 'kouosl\timetable\Module',
 		],
     ],
     'components' => [
@@ -71,7 +74,7 @@ return [
             'errorAction' => 'site/site/error',
         ],
 
-       
+
     ],
     'layout' => 'frontend-main',
     'params' => $params,
